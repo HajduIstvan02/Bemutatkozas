@@ -26,7 +26,12 @@ const router = createRouter({
       path: '/istvan',
       name: 'istvan',
       component: () => import('../views/Istvan.vue')
-    }
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'NotFound',
+      component: () => import('../views/notFound.vue')
+    },
   ]
 })
 
