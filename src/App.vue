@@ -7,8 +7,8 @@ import HelloWorld from './components/HelloWorld.vue'
   <header>
     
     <div class="container my-container">
-      <HelloWorld msg="Ügyes vagy! (esetleges elmezavarokért felelősséget nem vállalunk)" />
-      <p>Hajdu Istvan</p>
+      <HelloWorld msg="Ügyes vagy!" />
+      <p>(esetleges elmezavarokért felelősséget nem vállalunk)</p>
       <nav>
         <button type="button" class="btn btn-dark">
           <RouterLink to="/">Home</RouterLink>
