@@ -8,12 +8,18 @@ import HelloWorld from './components/HelloWorld.vue'
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="container my-container">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="ügyes vagy!" />
       <p>Hajdu Istvan</p>
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/istvan">István</RouterLink>
-        <RouterLink to="/alex">Alex</RouterLink>
+        <button type="button" class="btn btn-dark">
+          <RouterLink to="/">Home</RouterLink>
+        </button>
+        <button type="button" class="btn btn-dark">
+          <RouterLink to="/istvan">István</RouterLink>
+        </button>
+        <button type="button" class="btn btn-dark">
+          <RouterLink to="/alex">Alex</RouterLink>
+        </button>
       </nav>
     </div>
   </header>
