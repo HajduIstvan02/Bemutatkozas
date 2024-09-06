@@ -5,10 +5,9 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
+    
     <div class="container my-container">
-      <HelloWorld msg="ügyes vagy!" />
+      <HelloWorld msg="Ügyes vagy! (esetleges elmezavarokért felelősséget nem vállalunk)" />
       <p>Hajdu Istvan</p>
       <nav>
         <button type="button" class="btn btn-dark">
