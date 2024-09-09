@@ -1,7 +1,7 @@
 - Router készítés        | Ok
 - Publikálás (bem):
-  - Vite config          | 
-  - bem repo létrehozása |
-  - Fordítás             |
-  - publikálás           |
-- CSS
+  - Vite config          |  ?
+  - bem repo létrehozása |  ?
+  - Fordítás             |  ?
+  - publikálás           |  ?
+- CSS                    |  ?
