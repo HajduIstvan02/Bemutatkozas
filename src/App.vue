@@ -9,9 +9,11 @@ import HelloWorld from './components/HelloWorld.vue'
       
       <div class="container container-fluid my-container my-border position-middle">
         <nav>
-          <RouterLink to="/" class="position-middle">Főoldal</RouterLink>
-          <RouterLink to="/istvan" class="bi bi-airplane-engines position-middle">István</RouterLink>
-          <RouterLink to="/alex" class="bi bi-airplane-engines position-middle">Alex</RouterLink>
+          <p>
+            <RouterLink to="/" class="position-middle">Főoldal</RouterLink> <i class="bi bi-megaphone"></i>
+            <RouterLink to="/istvan" class="position-middle">István</RouterLink> <i class="bi bi-nvidia"></i>
+            <RouterLink to="/alex" class="position-middle">Alex</RouterLink>
+          </p>
         </nav>
       </div>
     </header>
