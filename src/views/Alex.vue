@@ -1,8 +1,9 @@
 <template>
     <div class="container container-fluid mine-background mine-border">
         <h1>Alex vagyok</h1>
+        <img src="/public/fedy.png" alt="F">
         <p>Repülő rovar, amelyek közeli rokonságban áll a darazsakkal és a hangyákkal. Külön vonalat képvisel a méhalkatúak (Apoidea) főcsaládban, jelenleg az Anthophila kládba sorolják. Megközelítőleg 20 000 ismert faja létezik, habár sokuk nincsen leírva, illetve besorolva. Gazdasági jelentőségű, mézet termelő rovar, szerepe a növények beporzásában nélkülözhetetlen.</p>
-        <img src="/public/meh.png" alt="T">
+        <img src="/public/meh.png" alt="M">
     </div>
 </template>
 
