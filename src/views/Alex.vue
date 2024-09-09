@@ -1,8 +1,8 @@
 <template>
     <div>
         <h1>Alex vagyok</h1>
-        <p>A 2001. szeptember 11-ei terrortámadások (gyakori rövidítése: 9/11, ami a szeptember 11-ei dátum amerikai írásmódja; kimondva: szeptember tizenegy) az al-Káida terrorszervezet összehangolt öngyilkos merényletsorozata volt az Egyesült Államok ellen.</p>
-        <img src="/public/911.png" alt="T">
+        <p>Repülő rovar, amelyek közeli rokonságban áll a darazsakkal és a hangyákkal. Külön vonalat képvisel a méhalkatúak (Apoidea) főcsaládban, jelenleg az Anthophila kládba sorolják. Megközelítőleg 20 000 ismert faja létezik, habár sokuk nincsen leírva, illetve besorolva. Gazdasági jelentőségű, mézet termelő rovar, szerepe a növények beporzásában nélkülözhetetlen.</p>
+        <img src="/public/meh.png" alt="T">
     </div>
 </template>
 
