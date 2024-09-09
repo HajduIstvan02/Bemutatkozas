@@ -7,7 +7,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <div>
     <header>
       
-      <div class="container my-container">
+      <div class="container my-container my-border">
         <HelloWorld msg="Ügyes vagy!" />
         <p>(esetleges elmezavarokért felelősséget nem vállalunk)</p>
         <nav>
