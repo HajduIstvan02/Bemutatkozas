@@ -7,12 +7,12 @@ import HelloWorld from './components/HelloWorld.vue'
   <div>
     <header>
       
-      <div class="container container-fluid my-container my-border position-middle">
+      <div class="container container-fluid my-container my-border my-background position-middle">
         <nav>
           <p>
-            <RouterLink to="/" class="position-middle">Főoldal</RouterLink> <i class="bi bi-megaphone"></i>
-            <RouterLink to="/istvan" class="position-middle">István</RouterLink> <i class="bi bi-nvidia"></i>
-            <RouterLink to="/alex" class="position-middle">Alex</RouterLink>
+            <RouterLink to="/" class="position-middle fw-bold">Főoldal</RouterLink> <i class="bi bi-megaphone"></i>
+            <RouterLink to="/istvan" class="position-middle fw-bold">István</RouterLink> <i class="bi bi-nvidia"></i>
+            <RouterLink to="/alex" class="position-middle fw-bold">Alex</RouterLink>
           </p>
         </nav>
       </div>

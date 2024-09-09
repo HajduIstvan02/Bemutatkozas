@@ -5,3 +5,7 @@
 .my-container {
   max-width: 1200px;
 }
+
+.my-background {
+  background-color: rgb(255, 145, 0);
+}
