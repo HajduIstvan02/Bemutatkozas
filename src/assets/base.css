@@ -1,11 +1,11 @@
 .my-border{
-  border: 3px dashed orangered;
-}
+    border: 3px dashed orangered;
+  }
+  
+  .my-container {
+    max-width: 1200px;
+  }
 
-.my-container {
-  max-width: 1200px;
-}
-
-.my-background {
-  background-color: rgb(194, 0, 0);
+  .my-background {
+    background-color: rgb(194, 0, 0);
 }
