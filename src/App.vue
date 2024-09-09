@@ -7,11 +7,11 @@ import HelloWorld from './components/HelloWorld.vue'
   <div>
     <header>
       
-      <div class="container container-fluid my-container my-border">
+      <div class="container container-fluid my-container my-border position-middle">
         <nav>
-          <RouterLink to="/">Home</RouterLink>
-          <RouterLink to="/istvan">István</RouterLink>
-          <RouterLink to="/alex">Alex</RouterLink>
+          <RouterLink to="/" class="position-middle">Főoldal</RouterLink>
+          <RouterLink to="/istvan" class="bi bi-airplane-engines position-middle">István</RouterLink>
+          <RouterLink to="/alex" class="bi bi-airplane-engines position-middle">Alex</RouterLink>
         </nav>
       </div>
     </header>
