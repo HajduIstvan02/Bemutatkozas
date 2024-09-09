@@ -1,7 +1,7 @@
 .my-border{
-  max-width: 1200px;
+  border: 1px dashed orangered;
 }
 
 .my-container {
-  border: 1px dashed orangered;
+  max-width: 1200px;
 }
