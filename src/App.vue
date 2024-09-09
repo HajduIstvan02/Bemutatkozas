@@ -4,26 +4,28 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <header>
+  <div>
+    <header>
+      
+      <div class="container my-container">
+        <HelloWorld msg="Ügyes vagy!" />
+        <p>(esetleges elmezavarokért felelősséget nem vállalunk)</p>
+        <nav>
+          <button type="button" class="btn btn-dark">
+            <RouterLink to="/">Home</RouterLink>
+          </button>
+          <button type="button" class="btn btn-dark">
+            <RouterLink to="/istvan">István</RouterLink>
+          </button>
+          <button type="button" class="btn btn-dark">
+            <RouterLink to="/alex">Alex</RouterLink>
+          </button>
+        </nav>
+      </div>
+    </header>
     
-    <div class="container my-container">
-      <HelloWorld msg="Ügyes vagy!" />
-      <p>(esetleges elmezavarokért felelősséget nem vállalunk)</p>
-      <nav>
-        <button type="button" class="btn btn-dark">
-          <RouterLink to="/">Home</RouterLink>
-        </button>
-        <button type="button" class="btn btn-dark">
-          <RouterLink to="/istvan">István</RouterLink>
-        </button>
-        <button type="button" class="btn btn-dark">
-          <RouterLink to="/alex">Alex</RouterLink>
-        </button>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView/>
+    <RouterView/>
+  </div>
 </template>
 
 <style scoped>
