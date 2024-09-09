@@ -7,17 +7,17 @@ import HelloWorld from './components/HelloWorld.vue'
   <div>
     <header>
       
-      <div class="container my-container my-border">
+      <div class="container container-fluid my-container my-border row justify-content-around">
         <HelloWorld msg="Ügyes vagy!" />
         <p>(esetleges elmezavarokért felelősséget nem vállalunk)</p>
         <nav>
-          <button type="button" class="btn btn-dark">
+          <button type="button" class="btn btn-dark col-4">
             <RouterLink to="/">Home</RouterLink>
           </button>
-          <button type="button" class="btn btn-dark">
+          <button type="button" class="btn btn-dark col-4">
             <RouterLink to="/istvan">István</RouterLink>
           </button>
-          <button type="button" class="btn btn-dark">
+          <button type="button" class="btn btn-dark col-4">
             <RouterLink to="/alex">Alex</RouterLink>
           </button>
         </nav>
