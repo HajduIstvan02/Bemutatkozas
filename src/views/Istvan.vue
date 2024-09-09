@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>István vagyok</h1>
-        <p>Hajdu István vagyok egy basszeros több dolgot nem osztok meg. Kész vég a mesének..... Ennyi... nincs több mesélés</p>
+        <p>Hajdu István vagyok 20 éves egy basszeros, emellett több hangszeren tudok játszani és ezek száma csak gyarapodik. Pl Ukulele, Szájharmónika, Zongora, NAgybőgő, Cselló. </p>
     </div>
 </template>
 
