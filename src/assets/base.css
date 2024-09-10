@@ -6,6 +6,9 @@
     max-width: 1200px;
   }
 
-  .my-background {
+  .my-header-background {
     background-color: rgba(58, 236, 22, 0.801);
+}
+  .my-background {
+    background-color: rgba(0, 154, 192, 0.952);
 }

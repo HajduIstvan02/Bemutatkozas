@@ -8,7 +8,7 @@ import HelloWorld from './components/HelloWorld.vue'
     
     <header>
       
-      <div class="container container-fluid my-container my-border my-background position-middle">
+      <div class="container container-fluid my-container my-border my-header-background position-middle">
         <nav>
           <p>
             <RouterLink to="/" class="position-middle fw-bold">Főoldal</RouterLink> <i class="bi bi-amd"></i>
