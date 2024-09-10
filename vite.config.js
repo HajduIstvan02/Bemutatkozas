@@ -14,7 +14,7 @@ export default defineConfig({
     }
   },
   build: {
-    outDir: './dist/bemutatkozas',
+    outDir: './dist/bemutatkozasp',
   },
-  base: process.env.NODE_ENV === 'development' ? '/' : '/bemutatkozas/',
+  base: process.env.NODE_ENV === 'development' ? '/' : '/bemutatkozasp/',
 })
