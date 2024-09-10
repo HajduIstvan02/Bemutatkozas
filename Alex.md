@@ -1,6 +1,6 @@
 - Router készítés        | Ok
 - Publikálás (bem):
-  - Vite config          |  ?
+  - Vite config          | Ok
   - bem repo létrehozása |  ?
   - Fordítás             |  ?
   - publikálás           |  ?

@@ -12,5 +12,9 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  build: {
+    outDir: './dist/bemutatkozas',
+  },
+  base: process.env.NODE_ENV === 'development' ? '/' : '/bemutatkozas/',
 })

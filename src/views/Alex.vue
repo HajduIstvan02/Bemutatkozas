@@ -17,6 +17,6 @@ export default {
   background-color: rgb(251, 255, 0);
 }
 .mine-border {
-  border: 2px solid rgb(27, 0, 182);
+  border: 3px solid rgb(27, 0, 182);
 }
 </style>
